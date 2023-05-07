@@ -1,0 +1,553 @@
+@import url(//db.onlinewebfonts.com/c/d3398b63eaca40daee65f5fa3b69402c?family=PayPal+Sans+Small);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+section ul {
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
+  margin: 0 130px;
+}
+
+section ul li {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.auth {
+  display: flex;
+}
+
+.icon {
+  width: 9em;
+  padding: 10px;
+}
+
+.auth {
+  display: flex;
+  justify-content: space-between;
+  width: 190px;
+}
+.login {
+  padding: 13px;
+  border-radius: 25px;
+  width: 90px;
+  color: #0070ba;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #0070ba;
+}
+.signup {
+  padding: 13px;
+  border-radius: 25px;
+  width: 90px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #0070ba;
+  border: 1px solid #0070ba;
+}
+
+svg {
+  width: 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+/* Main */
+
+.container-2 {
+  margin: 0;
+  padding: 0;
+}
+
+.visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 20%;
+  right: 20%;
+}
+
+.main-text {
+  text-align: center;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 400;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+
+.Sign-up {
+  color: #0d3685;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 110px;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+.main-video {
+  margin: 0;
+  padding: 0;
+}
+/* Third */
+.third-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #02387b;
+  color: white;
+  height: 120px;
+  margin-top: 0;
+}
+
+.business {
+  padding: 13px;
+  border-radius: 25px;
+  width: 150px;
+  color: #0070ba;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #0070ba;
+  margin-bottom: 25px;
+}
+
+.text-3 {
+  font-size: 25px;
+}
+
+/* Fourth */
+
+.flex-container {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.image-third {
+  width: 350px;
+}
+
+h2 {
+  font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+  color: #00a8ea;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.flex-1 {
+  width: 43%;
+}
+.container-text {
+  font-weight: 500;
+  padding-top: 20px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.container-btn {
+  text-align: center;
+  padding: 13px;
+  border-radius: 25px;
+  width: 60%;
+  color: #0070ba;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #0070ba;
+}
+
+/* Seventh */
+
+.container-7 {
+  padding: 40px;
+}
+.container-7 h2 {
+  text-align: center;
+}
+
+.icons-7 img {
+  padding: 30px;
+}
+.icons-7 img:first-child {
+  height: 40px;
+}
+.icons-7 {
+  width: min-content;
+  padding-top: 25px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Eight */
+
+.container-8 {
+  background-color: #00a8ea;
+  height: 380px;
+}
+
+.container-8 button {
+  margin: 0 auto;
+}
+
+.white-text {
+  padding: 50px;
+  font-family: PayPalSansBig-Light, Helvetica Neue, Arial, sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.counter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  align-items: center;
+}
+
+.one {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  width: 25px;
+  margin: 50px 8px 0px 0px;
+  font-size: 2.14285714rem;
+  border-radius: 18px;
+}
+
+/* footer */
+
+.tc {
+  margin: 40px 120px 25px 120px;
+}
+
+.about-1 {
+  margin: 40px 120px 10px 120px;
+}
+.list-1 {
+  display: flex;
+}
+.about-1 ul {
+  margin-right: auto;
+}
+.about-1 ul li {
+  display: inline-block;
+  margin: 5px;
+  align-self: center;
+  color: #2c2e2f;
+  font-weight: 500;
+}
+.about-2 {
+  margin: 10px 120px 25px 120px;
+}
+.list-2 {
+  display: flex;
+}
+.about-2 ul {
+  margin-right: auto;
+}
+
+.about-2 ul li {
+  display: inline-block;
+  margin: 5px;
+  align-self: center;
+  color: #2c2e2f;
+  font-weight: 500;
+}
+
+.list-3 ul{
+    display: flex;
+    margin: 8px;
+    font-size: 12px;
+    padding: 0;
+    font-weight: 550;
+}
+
+.flag {
+  margin: 5px;
+  padding: 15px;
+}
+
+.text {
+  margin: 30px 120px 20px 120px;
+  font-size: 13px;
+  font-weight: 500;
+  font-size: 0.8125rem;
+  color: #687173;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 350px) and (max-width: 576px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  section ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .auth {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .login,
+  .signup {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .main-text {
+    position: absolute;
+    top: 30%;
+    font-size: 13px;
+  }
+
+  .visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 23%;
+    left: 20%;
+    right: 20%;
+  }
+
+  .Sign-up {
+    font-size: 8px;
+    width: 100px;
+    padding: 8px;
+    margin-top: 70px;
+  }
+
+  .text-3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  .business {
+    padding: 8px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding: 12px;
+    margin: 5px 0px;
+  }
+  .container-text {
+    text-align: center;
+    margin: 8px 0px;
+    padding: 6px;
+    font-size: 15px;
+  }
+  .flex-1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .icon-7 {
+    width: 60px;
+  }
+  .icons-7 {
+    width: 100%;
+  }
+  .icons-7 img:first-child {
+    height: 20px;
+  }
+
+  .white-text{
+    margin: 0;
+    padding-bottom:10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .one{
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .counter{
+    height: 10px;
+    margin-top: 0;
+    padding-top: 8px;
+  }
+
+  .container-8{
+    height: 250px;
+  }
+
+  .container-8 .Sign-up{
+    width: 30%;
+    font-size: 12px;
+  }
+
+  .tc{
+    margin: 35px 20px;
+    line-height: 1.5;
+  }
+  .about-1 {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+
+  }
+  .about-2{
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+  }
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+
+  hr{
+    margin: 0;
+  }
+
+  .list-1 ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .list-2{
+    margin: 0;
+    padding: 0;
+  }
+  .list-2 ul{
+    margin: 0;
+    display: flex;
+    color: #2c2e2f;
+  }
+
+  .list-3 ul{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #2c2e2f;
+    font-size: 15px;
+  }
+
+  .text{
+    margin: 10px;
+  }
+
+}
+
+/* Medium devices (between 577px and 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  section ul {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  section ul li {
+    font-size: 12px;
+  }
+
+  .auth {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+/* Large devices (between 769px and 992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+  section ul {
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  section ul li {
+    font-size: 14px;
+  }
+}
+
+/* Extra-large devices (greater than 992px) */
+@media (min-width: 993px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  section ul {
+    justify-content: space-around;
+    margin: 0 130px;
+  }
+
+  section ul li {
+    font-size: 15px;
+  }
+  .auth {
+    margin-top: 0;
+  }
+}
