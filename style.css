@@ -551,3 +551,38 @@ a {
     margin-top: 0;
   }
 }
+
+
+
+.social-link {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 250ms;
+    border-radius: 5px;
+   
+
+
+}
+
+.social-link:hover {
+    transition: 500ms;
+    background-color: rgba(237, 234, 234, 0.763);
+    border-radius: 5px;
+    transform: scale(1.15);
+}
+#fb:hover{
+    background-color: #0800fa36;
+}
+#insta:hover{
+    background-color: #ff019536;
+}
+#twitter:hover{
+    background-color: #00abfa36;
+}
+#yt:hover{
+    background-color: #ff000036;
+}
+a{
+    text-decoration: none;
+}
+
